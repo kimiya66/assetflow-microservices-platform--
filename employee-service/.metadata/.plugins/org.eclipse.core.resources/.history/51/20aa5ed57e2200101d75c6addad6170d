@@ -1,0 +1,21 @@
+package com.assetflow.employee.model;
+
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Entity
+@Data // Generate all Getters and Setters
+@NoArgsConstructor // 💡 No-arg constructor
+@AllArgsConstructor // 💡 All-arg constructor
+public class Employee {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    private String name;
+    private String position;
+
+}

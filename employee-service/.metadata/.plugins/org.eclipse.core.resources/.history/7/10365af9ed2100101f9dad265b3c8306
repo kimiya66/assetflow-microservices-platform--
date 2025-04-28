@@ -1,0 +1,5 @@
+package com.assetflow.employee.repository;
+
+public class EmployeeRepository {
+
+}

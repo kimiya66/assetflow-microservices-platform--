@@ -1,0 +1,58 @@
+services:
+  employee-db:
+    image: postgres:15
+    container_name: employee-db
+    environment:
+      POSTGRES_DB: employees
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
+    volumes:
+      - employee-data:/var/lib/postgresql/data
+
+  asset-db:
+    image: mysql:8
+    container_name: asset-db
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: assets
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+    ports:
+      - "3306:3306"
+    volumes:
+      - asset-data:/var/lib/mysql
+
+  employee-service:
+    build: ./employee-service/employee-service
+    container_name: employee-service
+    ports:
+      - "8081:8081"
+    depends_on:
+      - employee-db
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://employee-db:5432/employees
+      SPRING_DATASOURCE_USERNAME: postgres
+      SPRING_DATASOURCE_PASSWORD: password
+
+  asset-service:
+    build: ./asset-service
+    container_name: asset-service
+    ports:
+      - "8082:8082"
+    depends_on:
+      - asset-db
+      - employee-service
+    restart: always  
+    environment:
+      DB_HOST: asset-db  # important to dockerize
+      DB_USER: user
+      DB_PASSWORD: password
+      DB_NAME: assets
+      EMPLOYEE_SERVICE_HOST: employee-service
+      EMPLOYEE_SERVICE_PORT: 8081
+
+volumes:
+  employee-data:
+  asset-data:

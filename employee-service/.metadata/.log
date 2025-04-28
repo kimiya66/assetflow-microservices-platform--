@@ -1,0 +1,272 @@
+!SESSION 2025-04-25 17:44:56.116 -----------------------------------------------
+eclipse.buildId=4.25.0.202409101855
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data C:\Users\kimia\Software projects2025\assetflow\employee-service
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 17:45:01.068
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-25 17:45:03.110
+!MESSAGE Logback config file: C:\Users\kimia\Software projects2025\assetflow\employee-service\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-25 17:45:04.005
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-25 17:45:04.005
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-25 17:45:04.506
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-25 17:45:04.506
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2025-04-25 17:45:09.171
+!MESSAGE The content type with id "org.eclipse.wst.jsdt.core.jsSource" specified in the extension point does not exist.
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2025-04-25 17:45:09.172
+!MESSAGE The content type with id "org.eclipse.wst.jsdt.core.jsSource" specified in the extension point does not exist.
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-25 17:45:12.588
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kimia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-25 17:45:14.976
+!MESSAGE Validated and fetched latest manifest
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-25 17:45:18.026
+!MESSAGE Downloaded clients.zip to C:\Users\kimia\Software projects2025\assetflow\employee-service\.metadata\.plugins\amazon-q-eclipse\lsp\AmazonQ\2.3.2
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-25 17:45:19.670
+!MESSAGE Downloaded servers.zip to C:\Users\kimia\Software projects2025\assetflow\employee-service\.metadata\.plugins\amazon-q-eclipse\lsp\AmazonQ\2.3.2
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-25 17:45:20.411
+!MESSAGE Installing Amazon Q language server v2.3.2 to C:\Users\kimia\Software projects2025\assetflow\employee-service\.metadata\.plugins\amazon-q-eclipse\lsp\AmazonQ\2.3.2 (Attribution notice for aws-lsp-codewhisperer.js can be found at: https://aws-language-servers.us-east-1.amazonaws.com/600cd9f4-ffc9-4279-818c-35242ee7b095/THIRD_PARTY_LICENSES)
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-25 17:45:22.500
+!MESSAGE Initializing communication with Amazon Q Lsp Server
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:23.602
+!MESSAGE [Info]	Runtime: Initializing runtime with encryption
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:23.603
+!MESSAGE [Info]	[2025-04-25T15:45:23.575Z] SecurityScan server has been initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:23.604
+!MESSAGE [Info]	[2025-04-25T15:45:23.579Z] Q Chat server has been initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:23.605
+!MESSAGE [Info]	[2025-04-25T15:45:23.586Z] Creating identity server.
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 17:45:23.605
+!MESSAGE [Error]	(node:27076) NOTE: The AWS SDK for JavaScript (v2) is in maintenance mode.
+ SDK releases are limited to address critical bug fixes and security issues only.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:23.606
+!MESSAGE [Info]	Runtime: Registering IAM credentials update handler
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:23.609
+!MESSAGE [Info]	[2025-04-25T15:45:23.586Z] Amazon Q Customization server has been initialised
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:23.610
+!MESSAGE [Info]	[2025-04-25T15:45:23.584Z] Amazon Q Inline Suggestion server has been initialised
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:23.610
+!MESSAGE [Info]	Runtime: Registering bearer credentials update handler
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:24.443
+!MESSAGE [Info]	[2025-04-25T15:45:24.441Z] Chat configuration updated to use undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:24.448
+!MESSAGE [Info]	[2025-04-25T15:45:24.446Z] Inline completion configuration updated to use undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:24.451
+!MESSAGE [Info]	[2025-04-25T15:45:24.450Z] Configuration updated to exclude suggestions with code references
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 17:45:24.452
+!MESSAGE [Info]	[2025-04-25T15:45:24.450Z] Configuration updated to share Amazon Q content with AWS
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 17:46:35.862
+!MESSAGE Classpath changed for project: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 17:46:37.318
+!MESSAGE Classpath changed for project: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 17:46:37.319
+!MESSAGE Boot project ADDED: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 17:46:37.319
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 17:46:37.321
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-25 17:46:37.384
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\kimia\Spring-Project\sts-4.25.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/kimia/Software projects2025/assetflow/employee-service/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745595997380
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\kimia\Spring-Project\sts-4.25.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.57.0.202409101848\servers\spring-boot-language-server\spring-boot-language-server-1.57.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 17:46:37.385
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-25 17:46:37.424
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 5440
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 17:46:38.112
+!MESSAGE Classpath changed for project: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 17:46:38.793
+!MESSAGE Classpath changed for project: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 17:46:40.978
+!MESSAGE Classpath changed for project: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 17:47:11.569
+!MESSAGE Classpath changed for project: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 23:22:04.199
+!MESSAGE Classpath changed for project: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 23:22:04.296
+!MESSAGE Classpath changed for project: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 23:22:05.466
+!MESSAGE Classpath changed for project: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-25 23:22:25.553
+!MESSAGE Classpath changed for project: employee-service
+!SESSION 2025-04-26 09:31:56.508 -----------------------------------------------
+eclipse.buildId=4.25.0.202409101855
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-26 09:32:00.132
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2025-04-26 09:32:07.157
+!MESSAGE Logback config file: C:\Users\kimia\Software projects2025\assetflow\employee-service\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.6.1.20240411-1122.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-04-26 09:32:07.774
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-26 09:32:07.774
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-04-26 09:32:08.168
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-04-26 09:32:08.168
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2025-04-26 09:32:11.855
+!MESSAGE The content type with id "org.eclipse.wst.jsdt.core.jsSource" specified in the extension point does not exist.
+
+!ENTRY org.eclipse.core.filebuffers 4 0 2025-04-26 09:32:11.856
+!MESSAGE The content type with id "org.eclipse.wst.jsdt.core.jsSource" specified in the extension point does not exist.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-26 09:32:14.474
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\kimia\Spring-Project\sts-4.25.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.4.v20240802-1551\jre\bin\javaw.exe
+-Dsts.lsp.client=eclipse
+-Xmx1024m
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-XX:ErrorFile=C:/Users/kimia/Software projects2025/assetflow/employee-service/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1745652734473
+-Dlanguageserver.hover-timeout=225
+-jar
+C:\Users\kimia\Spring-Project\sts-4.25.0.RELEASE\plugins\org.springframework.tooling.boot.ls_1.57.0.202409101848\servers\spring-boot-language-server\spring-boot-language-server-1.57.0-SNAPSHOT-exec.jar
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 09:32:14.476
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2025-04-26 09:32:14.536
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 15180
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 09:32:17.017
+!MESSAGE Boot project ADDED: employee-service
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 09:32:17.018
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2025-04-26 09:32:17.021
+!MESSAGE Started Boot LS process
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-04-26 09:32:17.081
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\kimia'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-26 09:32:17.109
+!MESSAGE Version manifest contains latest content
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-26 09:32:19.515
+!MESSAGE Launching Amazon Q language server v2.3.2 from local cache C:\Users\kimia\Software projects2025\assetflow\employee-service\.metadata\.plugins\amazon-q-eclipse\lsp\AmazonQ\2.3.2 (Attribution notice for aws-lsp-codewhisperer.js can be found at: https://aws-language-servers.us-east-1.amazonaws.com/600cd9f4-ffc9-4279-818c-35242ee7b095/THIRD_PARTY_LICENSES)
+
+!ENTRY amazon-q-eclipse 1 0 2025-04-26 09:32:20.592
+!MESSAGE Initializing communication with Amazon Q Lsp Server
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:21.575
+!MESSAGE [Info]	[2025-04-26T07:32:21.555Z] Q Chat server has been initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:21.576
+!MESSAGE [Info]	[2025-04-26T07:32:21.553Z] SecurityScan server has been initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:21.577
+!MESSAGE [Info]	Runtime: Registering bearer credentials update handler
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-26 09:32:21.577
+!MESSAGE [Error]	(node:24168) NOTE: The AWS SDK for JavaScript (v2) is in maintenance mode.
+ SDK releases are limited to address critical bug fixes and security issues only.
+
+Please migrate your code to use AWS SDK for JavaScript (v3).
+For more information, check the blog post at https://a.co/cUPnyil
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:21.578
+!MESSAGE [Info]	[2025-04-26T07:32:21.557Z] Amazon Q Inline Suggestion server has been initialised
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:21.579
+!MESSAGE [Info]	Runtime: Initializing runtime with encryption
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:21.579
+!MESSAGE [Info]	[2025-04-26T07:32:21.558Z] Amazon Q Customization server has been initialised
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:21.580
+!MESSAGE [Info]	Runtime: Registering IAM credentials update handler
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:21.581
+!MESSAGE [Info]	[2025-04-26T07:32:21.558Z] Creating identity server.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:22.328
+!MESSAGE [Info]	[2025-04-26T07:32:22.325Z] Chat configuration updated to use undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:22.329
+!MESSAGE [Info]	[2025-04-26T07:32:22.326Z] Inline completion configuration updated to use undefined
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:22.332
+!MESSAGE [Info]	[2025-04-26T07:32:22.330Z] Configuration updated to exclude suggestions with code references
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 09:32:22.334
+!MESSAGE [Info]	[2025-04-26T07:32:22.330Z] Configuration updated to share Amazon Q content with AWS
