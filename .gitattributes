@@ -1,0 +1,8 @@
+# Exclude all CSS files from language stats
+*.css linguist-vendored
+*.min.css linguist-vendored
+
+# Mark service folders with their main languages
+/employee-service/** linguist-language=Java
+/asset-service/** linguist-language=JavaScript
+/frontend/** linguist-language=JavaScript
