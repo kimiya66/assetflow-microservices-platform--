@@ -1,8 +1,12 @@
-# Exclude all CSS files from language stats
+# Exclude CSS files from language statistics
 *.css linguist-vendored
 *.min.css linguist-vendored
 
-# Mark service folders with their main languages
-/employee-service/** linguist-language=Java
-/asset-service/** linguist-language=JavaScript
-/frontend/** linguist-language=JavaScript
+# Optional: exclude Tailwind's output if applicable
+/build/** linguist-vendored
+/dist/** linguist-vendored
+
+# Docker-related files as documentation (optional)
+Dockerfile linguist-documentation
+*.yml linguist-documentation
+*.yaml linguist-documentation
