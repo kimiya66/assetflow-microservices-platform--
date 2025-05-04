@@ -2,11 +2,11 @@
 *.css linguist-vendored
 *.min.css linguist-vendored
 
-# Optional: exclude Tailwind's output if applicable
+# exclude Tailwind's output if applicable
 /build/** linguist-vendored
 /dist/** linguist-vendored
 
-# Docker-related files as documentation (optional)
+# Docker-related files as documentation 
 Dockerfile linguist-documentation
 *.yml linguist-documentation
 *.yaml linguist-documentation
